@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@500&display=swap');
 
+:root {
+    --main-color: #04c6db;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -20,7 +24,7 @@ body {
 .gradient-bg {
     display: flex;
     width: 12rem;
-    background-image: linear-gradient(to right, #04c6db 65%, transparent 95%);
+    background-image: linear-gradient(to right, var(--main-color) 65%, transparent 95%);
     border-radius: 15px;
     height: 7rem;
     margin: 20px;
@@ -28,7 +32,7 @@ body {
 
 .button {
     line-height: calc(7rem - 3px);
-    color : #04c6db;
+    color : var(--main-color);
     border-radius: 12px;
     text-decoration: none;
     background-color: black;
@@ -40,5 +44,5 @@ body {
 
 .button:hover {
     color: black;
-    background-image: linear-gradient(to right, #04c6db 65%, transparent 97%);
+    background-image: linear-gradient(to right, var(--main-color) 65%, transparent 97%);
 }
