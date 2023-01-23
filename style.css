@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.gradient-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #04c6db, black);
+    border-radius: 15px;
+    height: 6rem;
+}
+
+.button {
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    font-size: 3rem;
+    padding: 1.5rem 1.5rem;
+    color : #04c6db;
+    border-radius: 15px;
+    text-decoration: none;
+}
