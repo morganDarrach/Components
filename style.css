@@ -11,23 +11,34 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     background-color: black;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    font-size: 3rem;
 }
 
 .gradient-bg {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: linear-gradient(to right, #04c6db, black);
+    width: 12rem;
+    background-image: linear-gradient(to right, #04c6db 65%, transparent 95%);
     border-radius: 15px;
-    height: 6rem;
+    height: 7rem;
+    margin: 20px;
 }
 
 .button {
-    font-family: 'Sofia Sans Semi Condensed', sans-serif;
-    font-size: 3rem;
-    padding: 1.5rem 1.5rem;
+    line-height: calc(7rem - 3px);
     color : #04c6db;
-    border-radius: 15px;
+    border-radius: 12px;
     text-decoration: none;
+    background-color: black;
+    height: calc(7rem - 6px);
+    width: calc(12rem - 6px);
+    margin: auto;
+    text-align: center;
+}
+
+.button:hover {
+    color: black;
+    background-image: linear-gradient(to right, #04c6db 65%, transparent 97%);
 }
